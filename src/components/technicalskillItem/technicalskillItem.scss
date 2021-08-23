@@ -8,6 +8,16 @@
   cursor: pointer;
   transition: all 0.5s ease;
 
+  @include mobile {
+    font-size: 18px;
+    margin-right: 25px;
+  }
+
+  @include superSmall {
+    font-size: 12px;
+    margin-right: 18px;
+  }
+
   &.active {
     background-color: $mainColor;
     padding: 7px;

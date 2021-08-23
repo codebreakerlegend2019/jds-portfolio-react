@@ -2,9 +2,9 @@
 .topbar {
   width: 100%;
   height: 70px;
-  background-color: white;
+  background-color: $normalColor;
   position: fixed;
-  color: $mainColor;
+  color: $topBarTextColor;
   top: 0;
   transition: all 1s ease;
   z-index: 3;
@@ -45,6 +45,10 @@
         text-decoration: none;
         color: inherit;
         margin-right: 40px;
+
+        @include mobile {
+          font-size: 35px;
+        }
       }
     }
 
@@ -60,7 +64,7 @@
         span {
           width: 100%;
           height: 3px;
-          background-color: $mainColor;
+          background-color: $topBarTextColor;
           transform-origin: left;
           transition: all 1s ease;
         }
@@ -70,13 +74,13 @@
 
   &.active {
     background-color: $mainColor;
-    color: white;
+    color: $topBarTextColor;
 
     .hamburger {
       cursor: pointer;
       span {
         &:first-child {
-          background-color: white;
+          background-color: $topBarTextColor;
           transform: rotate(45deg);
         }
 
@@ -85,7 +89,7 @@
         }
 
         &:last-child {
-          background-color: white;
+          background-color: $topBarTextColor;
           transform: rotate(-45deg);
         }
       }

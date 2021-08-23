@@ -5,6 +5,12 @@
   flex-direction: column;
   align-items: center;
 
+  @include superSmall {
+    flex-wrap: wrap;
+    justify-content: start;
+    margin: 100;
+  }
+
   h1 {
     color: $mainColor;
     margin: 10px;
@@ -12,6 +18,11 @@
 
     @include mobile {
       font-size: 20px;
+    }
+
+    @include superSmall {
+      margin: 0;
+      font-size: 10px;
     }
   }
   ul {
@@ -23,6 +34,12 @@
     @include mobile {
       flex-wrap: wrap;
       justify-content: center;
+    }
+
+    @include superSmall {
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 0;
     }
   }
 
@@ -57,9 +74,19 @@
         height: 100px;
       }
 
+      @include superSmall {
+        margin: 5px;
+        width: 100px;
+        height: 70px;
+      }
+
       h3 {
         position: absolute;
         font-size: 20px;
+
+        @include mobile {
+          font-size: 12px;
+        }
       }
       img {
         width: 100%;

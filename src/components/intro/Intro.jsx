@@ -30,7 +30,7 @@ export default function Intro() {
                     <h1>Joshua D. Siuagan</h1>
                     <h3>Software Engineer: <span ref={textRef}></span></h3>
                 </div>
-                <a href="#portfolio">
+                <a href="#techSkills">
                     <img src="assets/down.png"/>
                 </a>
             </div>
