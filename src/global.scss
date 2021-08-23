@@ -1,2 +1,10 @@
 $mainColor: #1769aa;
-$imageHolderColor: #24313b;
+$imageHolderColor: #63a7db;
+
+$width: 768px;
+
+@mixin mobile {
+  @media (max-width: $width) {
+    @content;
+  }
+}
