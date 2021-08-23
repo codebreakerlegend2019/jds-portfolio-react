@@ -47,7 +47,7 @@ function App() {
   return (
     <div className="app">
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} menuActive={menuActive}/>
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} menuActive={menuActive} setMenuActive={setMenuActive}/>
       <div onScroll={menuActiveChanger} className="sections">
         <Intro/>
         <TechSkills/>
