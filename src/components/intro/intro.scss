@@ -1,6 +1,8 @@
 @import "../../global.scss";
 .intro {
-  background-color: white;
+  background-image: url(../../assets/intro-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
 
   .left {
@@ -10,7 +12,7 @@
     .imageContainer {
       width: 700px;
       height: 700px;
-      background-color: $imageHolderColor;
+      background-color: transparent;
       border-radius: 50%;
       display: flex;
       align-items: flex-end;
@@ -19,7 +21,7 @@
     }
 
     img {
-      height: 90%;
+      height: 100%;
     }
   }
 

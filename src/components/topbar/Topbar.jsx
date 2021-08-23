@@ -3,11 +3,12 @@ import "./topbar.scss"
 import {Person,Mail} from '@material-ui/icons';
 
 export default function Topbar({ menuOpen,setMenuOpen }) {
+    const title = 'prodigy </>';
     return (
         <div className={"topbar "+ (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro" className="logo">prodigy.</a>
+                    <a href="#intro" className="logo">{title}</a>
                     <div className="itemContainer">
                         <Person className="icon"/>
                         <span>+63 956 813 8209</span>
