@@ -1,9 +1,9 @@
 @import "../../global.scss";
 .intro {
-  // background-image: url(../../assets/intro-bg.jpg);
-  // background-repeat: no-repeat;
+  background-image: url(../../assets/intro-bg.png);
+  background-repeat: no-repeat;
   background-color: white;
-  //background-size: cover;
+  background-size: cover;
   display: flex;
 
   @include mobile {
@@ -28,7 +28,7 @@
       margin-top: 50px;
       width: 700px;
       height: 700px;
-      background-color: $imageHolderColor;
+      background-color: $darkTextColor;
       border-radius: 50%;
       display: flex;
       align-items: flex-end;
@@ -98,7 +98,7 @@
 
         span {
           font-size: inherit;
-          color: $imageHolderColor;
+          color: $darkTextColor;
         }
 
         .ityped-cursor {

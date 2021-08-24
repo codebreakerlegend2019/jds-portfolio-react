@@ -16,30 +16,26 @@ function App() {
 
   const menuActiveChanger = (e) =>{
     let clientHeight = e.target.clientHeight;
-    let scrollTop = e.target.scrollTop;
+    let scrollTop = e.target.scrollTop.toFixed();
+    
     if(clientHeight * 0 == scrollTop)
     {
-      console.log('intro')
       setMenuActive('intro')
     }
     else if(clientHeight * 1 == scrollTop)
     {
-      console.log('techSkills')
       setMenuActive('techSkills')
     }
     else if(clientHeight * 2 == scrollTop)
     {
-      console.log('works')
       setMenuActive('works')
     }  
     else if(clientHeight * 3 == scrollTop)
     {
-      console.log('testimonials')
       setMenuActive('testimonials')
     }
     else if(clientHeight * 4 == scrollTop)
     {
-      console.log('contact')
       setMenuActive('contact')
     }
   }
