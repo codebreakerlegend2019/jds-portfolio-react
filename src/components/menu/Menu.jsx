@@ -1,7 +1,6 @@
 import React from 'react'
 import "./menu.scss";
 export default function Menu({menuOpen,setMenuOpen,menuActive,setMenuActive}) {
-    console.log('Menu: '+menuActive);
     return (
         <div className={"menu "+ (menuOpen && "active")}>
             <ul>
@@ -24,7 +23,6 @@ export default function Menu({menuOpen,setMenuOpen,menuActive,setMenuActive}) {
                 <li className={menuActive =='contact' ? 'active': ''} onClick={()=>{setMenuActive('');setMenuOpen(!menuOpen)}}>
                     <a href="#contact">Contact</a>
                 </li>
-
             </ul>
         </div>
     )
