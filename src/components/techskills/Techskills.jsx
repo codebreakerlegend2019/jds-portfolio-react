@@ -40,6 +40,7 @@ export default function TechSkills() {
             <ul>
                 {technicalCategoryLists.map(technicalSkill =>(
                      <TechnicalSkillList technicalSkill={technicalSkill} 
+                     key={technicalSkill.key}
                      active= {selected === technicalSkill.id} 
                      setSelected={setSelected}  />
                 ))}
@@ -47,7 +48,8 @@ export default function TechSkills() {
             <div className="container">
                 {data.map((d)=>(
                     
-                <div className="item">
+                <div className="item"
+                key={d.key}>
                     <img src={d.imgUrl}/>
                     <h3>{d.title}</h3>
                 </div>

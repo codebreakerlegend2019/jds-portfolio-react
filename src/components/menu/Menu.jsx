@@ -12,17 +12,17 @@ export default function Menu({menuOpen,setMenuOpen,menuActive,setMenuActive}) {
                     <a href="#techSkills">Technical Skills</a>
                 </li>
                 
-                <li className={menuActive =='works' ? 'active': ''} onClick={()=>{setMenuActive('');setMenuOpen(!menuOpen)}}>
-                    <a href="#works">Works</a>
+                <li className={menuActive =='workexperiences' ? 'active': ''} onClick={()=>{setMenuActive('');setMenuOpen(!menuOpen)}}>
+                    <a href="#works">Work Experiences</a>
                 </li>
                 
-                <li className={menuActive =='testimonials' ? 'active': ''}  onClick={()=>{setMenuActive('');setMenuOpen(!menuOpen)}}>
+                {/* <li className={menuActive =='testimonials' ? 'active': ''}  onClick={()=>{setMenuActive('');setMenuOpen(!menuOpen)}}>
                     <a href="#testimonials">Testimonials</a>
                 </li>
 
                 <li className={menuActive =='contact' ? 'active': ''} onClick={()=>{setMenuActive('');setMenuOpen(!menuOpen)}}>
                     <a href="#contact">Contact</a>
-                </li>
+                </li> */}
             </ul>
         </div>
     )

@@ -2,7 +2,7 @@
 import Topbar from './components/topbar/Topbar';
 import Intro from './components/intro/Intro'
 import TechSkills from './components/techskills/Techskills'
-import Works from './components/works/Works'
+import WorkExperiences from './components/workexperience/Workexperiences'
 import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Menu from './components/menu/Menu'
@@ -17,6 +17,9 @@ function App() {
   const menuActiveChanger = (e) =>{
     let clientHeight = e.target.clientHeight;
     let scrollTop = e.target.scrollTop.toFixed();
+
+    console.log(clientHeight)
+    console.log(scrollTop)
     
     if(clientHeight * 0 == scrollTop)
     {
@@ -26,18 +29,19 @@ function App() {
     {
       setMenuActive('techSkills')
     }
-    else if(clientHeight * 2 == scrollTop)
+    else if(clientHeight * 2 == scrollTop ||(clientHeight * 2)-1 == scrollTop )
     {
-      setMenuActive('works')
-    }  
-    else if(clientHeight * 3 == scrollTop)
-    {
-      setMenuActive('testimonials')
+      console.log("working exp")
+      setMenuActive('workexperiences')
     }
-    else if(clientHeight * 4 == scrollTop)
-    {
-      setMenuActive('contact')
-    }
+    // else if(clientHeight * 3 == scrollTop)
+    // {
+    //   setMenuActive('testimonials')
+    // }
+    // else if(clientHeight * 4 == scrollTop)
+    // {
+    //   setMenuActive('contact')
+    // }
   }
 
   return (
@@ -47,9 +51,9 @@ function App() {
       <div onScroll={menuActiveChanger} className="sections">
         <Intro/>
         <TechSkills/>
-        <Works/>
-        <Testimonials/>
-        <Contact/>
+        <WorkExperiences/>
+        {/* <Testimonials/>
+        <Contact/> */}
       </div>
     </div>
   );

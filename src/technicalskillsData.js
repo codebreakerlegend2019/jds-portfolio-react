@@ -30,7 +30,7 @@ export const backendSkills = [
     {
         id:2,
         title: "Entity Framework Core",
-        imgUrl:"https://static.gunnarpeipman.com/wp-content/uploads/2019/12/ef-core-featured.png"
+        imgUrl:"https://daniel-krzyczkowski.github.io/images/devisland/article13/assets/efh1.png"
     },
     {
         id:3,
@@ -40,7 +40,7 @@ export const backendSkills = [
     {
         id:4,
         title: "C#",
-        imgUrl:"https://cdn.icon-icons.com/icons2/2415/PNG/512/csharp_original_logo_icon_146578.png"
+        imgUrl:"https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png"
     },   
     {
         id:5,
