@@ -74,13 +74,13 @@
 
   &.active {
     background-color: $mainColor;
-    color: $topBarTextColor;
+    color: $lightTextColor;
 
     .hamburger {
       cursor: pointer;
       span {
         &:first-child {
-          background-color: $topBarTextColor;
+          background-color: $lightTextColor;
           transform: rotate(45deg);
         }
 
@@ -89,7 +89,7 @@
         }
 
         &:last-child {
-          background-color: $topBarTextColor;
+          background-color: $lightTextColor;
           transform: rotate(-45deg);
         }
       }
