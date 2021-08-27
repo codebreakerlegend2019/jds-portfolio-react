@@ -12,28 +12,7 @@
       display: none;
     }
 
-    .intro {
-      width: 100vw;
-      height: calc(100vh - 70px);
-      scroll-snap-align: start;
-    }
-    .techSkills {
-      width: 100vw;
-      height: calc(100vh - 70px);
-      scroll-snap-align: start;
-    }
-
-    .workexperiences {
-      width: 100vw;
-      height: calc(175vh - 70px);
-      scroll-snap-align: start;
-    }
-    .testimonials {
-      width: 100vw;
-      height: calc(100vh - 70px);
-      scroll-snap-align: start;
-    }
-    .contact {
+    > * {
       width: 100vw;
       height: calc(100vh - 70px);
       scroll-snap-align: start;

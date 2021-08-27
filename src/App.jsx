@@ -18,9 +18,6 @@ function App() {
     let clientHeight = e.target.clientHeight;
     let scrollTop = e.target.scrollTop.toFixed();
 
-    console.log(clientHeight)
-    console.log(scrollTop)
-    
     if(clientHeight * 0 == scrollTop)
     {
       setMenuActive('intro')
@@ -29,9 +26,8 @@ function App() {
     {
       setMenuActive('techSkills')
     }
-    else if(clientHeight * 2 == scrollTop ||(clientHeight * 2)-1 == scrollTop )
+    else if((clientHeight * 2)+100 == scrollTop)
     {
-      console.log("working exp")
       setMenuActive('workexperiences')
     }
     // else if(clientHeight * 3 == scrollTop)
