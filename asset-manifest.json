@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/codebreakerlegend2019/jds-portfolio-react/static/css/main.a7671d49.chunk.css",
-    "main.js": "/codebreakerlegend2019/jds-portfolio-react/static/js/main.eebfc6fa.chunk.js",
-    "main.js.map": "/codebreakerlegend2019/jds-portfolio-react/static/js/main.eebfc6fa.chunk.js.map",
-    "runtime-main.js": "/codebreakerlegend2019/jds-portfolio-react/static/js/runtime-main.c4e315a9.js",
-    "runtime-main.js.map": "/codebreakerlegend2019/jds-portfolio-react/static/js/runtime-main.c4e315a9.js.map",
-    "static/js/2.2de6b95e.chunk.js": "/codebreakerlegend2019/jds-portfolio-react/static/js/2.2de6b95e.chunk.js",
-    "static/js/2.2de6b95e.chunk.js.map": "/codebreakerlegend2019/jds-portfolio-react/static/js/2.2de6b95e.chunk.js.map",
-    "static/js/3.fcd4764e.chunk.js": "/codebreakerlegend2019/jds-portfolio-react/static/js/3.fcd4764e.chunk.js",
-    "static/js/3.fcd4764e.chunk.js.map": "/codebreakerlegend2019/jds-portfolio-react/static/js/3.fcd4764e.chunk.js.map",
-    "index.html": "/codebreakerlegend2019/jds-portfolio-react/index.html",
-    "static/css/main.a7671d49.chunk.css.map": "/codebreakerlegend2019/jds-portfolio-react/static/css/main.a7671d49.chunk.css.map",
-    "static/js/2.2de6b95e.chunk.js.LICENSE.txt": "/codebreakerlegend2019/jds-portfolio-react/static/js/2.2de6b95e.chunk.js.LICENSE.txt",
-    "static/media/work.09a9d867.svg": "/codebreakerlegend2019/jds-portfolio-react/static/media/work.09a9d867.svg"
+    "main.css": "/codebreakerlegend2019.github.io/jds-portfolio-react/static/css/main.a7671d49.chunk.css",
+    "main.js": "/codebreakerlegend2019.github.io/jds-portfolio-react/static/js/main.eebfc6fa.chunk.js",
+    "main.js.map": "/codebreakerlegend2019.github.io/jds-portfolio-react/static/js/main.eebfc6fa.chunk.js.map",
+    "runtime-main.js": "/codebreakerlegend2019.github.io/jds-portfolio-react/static/js/runtime-main.ff12f746.js",
+    "runtime-main.js.map": "/codebreakerlegend2019.github.io/jds-portfolio-react/static/js/runtime-main.ff12f746.js.map",
+    "static/js/2.2de6b95e.chunk.js": "/codebreakerlegend2019.github.io/jds-portfolio-react/static/js/2.2de6b95e.chunk.js",
+    "static/js/2.2de6b95e.chunk.js.map": "/codebreakerlegend2019.github.io/jds-portfolio-react/static/js/2.2de6b95e.chunk.js.map",
+    "static/js/3.fcd4764e.chunk.js": "/codebreakerlegend2019.github.io/jds-portfolio-react/static/js/3.fcd4764e.chunk.js",
+    "static/js/3.fcd4764e.chunk.js.map": "/codebreakerlegend2019.github.io/jds-portfolio-react/static/js/3.fcd4764e.chunk.js.map",
+    "index.html": "/codebreakerlegend2019.github.io/jds-portfolio-react/index.html",
+    "static/css/main.a7671d49.chunk.css.map": "/codebreakerlegend2019.github.io/jds-portfolio-react/static/css/main.a7671d49.chunk.css.map",
+    "static/js/2.2de6b95e.chunk.js.LICENSE.txt": "/codebreakerlegend2019.github.io/jds-portfolio-react/static/js/2.2de6b95e.chunk.js.LICENSE.txt",
+    "static/media/work.09a9d867.svg": "/codebreakerlegend2019.github.io/jds-portfolio-react/static/media/work.09a9d867.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c4e315a9.js",
+    "static/js/runtime-main.ff12f746.js",
     "static/js/2.2de6b95e.chunk.js",
     "static/css/main.a7671d49.chunk.css",
     "static/js/main.eebfc6fa.chunk.js"
